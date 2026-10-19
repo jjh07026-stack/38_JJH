@@ -26,10 +26,10 @@
 
 - 주요 기능 :
 
-100MHz 클록 분주 기반 100Hz tick 생성으로 Watch(시각 설정)와 Stopwatch(시간 측정) 독립 구동
+-- 100MHz 클록 분주 기반 100Hz tick 생성으로 Watch(시각 설정)와 Stopwatch(시간 측정) 독립 구동
 
-버튼 디바운스 및 2-bit 4-state FSM을 활용한 RUN/STOP, CLEAR, MODE 전환 제어
+-- 버튼 디바운스 및 2-bit 4-state FSM을 활용한 RUN/STOP, CLEAR, MODE 전환 제어
 
-MUX를 통한 표시 모드(hour.min / sec.msec) 전환 및 4자리 동적 스캔 FND 출력
+-- MUX를 통한 표시 모드(hour.min / sec.msec) 전환 및 4자리 동적 스캔 FND 출력
 
-시 단위 수동 설정 시 24시간 범위 초과 오동작 예외 처리(-10 보정 로직) 구현
+-- 시 단위 수동 설정 시 24시간 범위 초과 오동작 예외 처리(-10 보정 로직) 구현
