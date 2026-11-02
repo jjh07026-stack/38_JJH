@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_project_top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_project_top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="31981421380fs"></ZoomStartTime>
+      <ZoomEndTime time="72381421381fs"></ZoomEndTime>
+      <Cursor1Time time="22397476119fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="135"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="16" />
+   <wave_markers>
+      <marker time="34000000000000" label="START" />
+      <marker time="82000000000000" label="END" />
+   </wave_markers>
+   <wvobject fp_name="/tb_project_top/clk" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+      <obj_property name="label">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_project_top/rst" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+      <obj_property name="label">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_project_top/sw" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">sw[3:0]</obj_property>
+      <obj_property name="ObjectShortName">sw[3:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <obj_property name="label">sw</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_project_top/btnR" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">btnR</obj_property>
+      <obj_property name="ObjectShortName">btnR</obj_property>
+      <obj_property name="label">btnR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_project_top/rx" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">rx</obj_property>
+      <obj_property name="ObjectShortName">rx</obj_property>
+      <obj_property name="label">rx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_project_top/dut/U_UART/U_UART_FIFO_LOOPBACK/U_UART_RX/rx_data" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">rx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_data[7:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+      <obj_property name="label">rx_data</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_project_top/dut/U_UART/U_UART_FIFO_LOOPBACK/U_UART_RX/rx_done" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">rx_done</obj_property>
+      <obj_property name="ObjectShortName">rx_done</obj_property>
+      <obj_property name="label">rx_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_project_top/dut/w_displaymode" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">w_displaymode[1:0]</obj_property>
+      <obj_property name="ObjectShortName">w_displaymode[1:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">w_displaymode</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_project_top/trig" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">trig</obj_property>
+      <obj_property name="ObjectShortName">trig</obj_property>
+      <obj_property name="label">trig</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_project_top/echo" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">echo</obj_property>
+      <obj_property name="ObjectShortName">echo</obj_property>
+      <obj_property name="label">echo</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_project_top/dht11_io" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">dht11_io</obj_property>
+      <obj_property name="ObjectShortName">dht11_io</obj_property>
+      <obj_property name="label">dht11_io</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_project_top/dut/w_sender_start" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">w_sender_start</obj_property>
+      <obj_property name="ObjectShortName">w_sender_start</obj_property>
+      <obj_property name="CustomSignalColor">yellow</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="label">w_sender_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_project_top/tx" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">tx</obj_property>
+      <obj_property name="ObjectShortName">tx</obj_property>
+      <obj_property name="label">tx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_project_top/pc_rx_data" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">pc_rx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_rx_data[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">cyan</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+      <obj_property name="label">pc_rx_data</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_project_top/pc_rx_done" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">pc_rx_done</obj_property>
+      <obj_property name="ObjectShortName">pc_rx_done</obj_property>
+      <obj_property name="label">pc_rx_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_project_top/dut/fnd_data" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">fnd_data[23:0]</obj_property>
+      <obj_property name="ObjectShortName">fnd_data[23:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">fnd_data</obj_property>
+   </wvobject>
+</wave_config>
